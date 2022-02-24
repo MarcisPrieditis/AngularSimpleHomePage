@@ -1,4 +1,4 @@
-# Angule Github Project Showcase
+# Angular Github Project Showcase
 
 After little crash course about angular, decided to make my own simple showcase style web page on Angular to understand little bit better angular. <br/>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
