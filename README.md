@@ -1,6 +1,5 @@
 # AngularSimpleHomePage
 
-Hello! <br/>
 After little crash course about angular, decided to make my own simple showcase style web page on Angular to understand little bit better angular. <br/>
 
 How to run:<br/>
