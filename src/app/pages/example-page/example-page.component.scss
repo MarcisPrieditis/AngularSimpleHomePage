@@ -1,0 +1,52 @@
+.example-body {
+  background-color: #314E70;
+
+}
+
+.example-cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+  // margin: 40px 80px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  cursor: pointer;
+}
+
+.card-img {
+  border-radius: 4px;
+  width: 100%;
+  aspect-ratio: 5/4;
+}
+
+.card-description {
+  font-size: 16px;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.card-header {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #e9e7deda;
+}
+
+@media screen and (max-width: 890px) {
+
+
+  // .example-cards-wrapper {
+  //   margin: 40px 0;
+  // }
+}

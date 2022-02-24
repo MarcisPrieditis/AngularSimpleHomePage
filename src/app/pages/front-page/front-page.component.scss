@@ -1,0 +1,63 @@
+.content-wrapper {
+  margin-top: 100px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  //flex-wrap: wrap;
+}
+
+.text-wrapper {
+  margin: 0 20px;
+  max-width: 750px;
+}
+
+.my-name {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.name {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.technologies {
+  letter-spacing: 2px;
+}
+
+
+
+.about-me-wrapper {
+  font-weight: 400;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.about-me-text {
+  letter-spacing: 1px;
+}
+
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #EDAEC0;
+  animation: flip 3s infinite;
+  animation-delay: calc(.3s * var(--i))
+}
+
+@keyframes flip {
+
+  0%,
+  80% {
+    color: #fff;
+    transform: rotateY(360deg)
+  }
+}
+
+.lets-talk-btn {
+  margin-top: 30px;
+}
